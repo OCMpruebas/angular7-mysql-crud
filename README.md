@@ -1,4 +1,4 @@
-#Video con la explicación del codigo
+# Video con la explicación del codigo
 https://www.youtube.com/watch?v=lxYB79ANJM8&feature=youtu.be
 
 # Restaurar código.
