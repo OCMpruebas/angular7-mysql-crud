@@ -1,10 +1,18 @@
 export default {
 
+    // database: {
+    //     host: 'localhost',
+    //     user: 'root',
+    //     password: 'whateverpass',
+    //     database: 'ng_games'
+    // }
+
     database: {
-        host: 'localhost',
+        host: '195.110.58.54',
         user: 'root',
-        password: 'whateverpass',
+        password: 'q*3araa9N0rx',
         database: 'ng_games'
     }
+
 
 }

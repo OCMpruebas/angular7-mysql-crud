@@ -2,7 +2,7 @@ CREATE DATABASE ng_games;
 
 USE ng_games;
 
-CREATE TABLE game (
+CREATE TABLE games (
     id INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
     title VARCHAR(180),
     description VARCHAR(255),
@@ -10,6 +10,6 @@ CREATE TABLE game (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
-RENAME TABLE game to games;
+-- RENAME TABLE game to games;
 
-DESCRIBE game;
+DESCRIBE games;
