@@ -36,7 +36,7 @@ export class GameFormComponent implements OnInit {
             this.edit = true;
           },
           err => console.log(err)
-        )
+        );
     }
   }
 
@@ -50,7 +50,7 @@ export class GameFormComponent implements OnInit {
           this.router.navigate(['/games']);
         },
         err => console.error(err)
-      )
+      );
   }
 
   updateGame() {
@@ -62,7 +62,7 @@ export class GameFormComponent implements OnInit {
           this.router.navigate(['/games']);
         },
         err => console.error(err)
-      )
+      );
   }
 
 }

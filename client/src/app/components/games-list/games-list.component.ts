@@ -8,14 +8,13 @@ import { Game } from 'src/app/models/Game';
   templateUrl: './games-list.component.html',
   styleUrls: ['./games-list.component.css'],
 })
+
 export class GamesListComponent implements OnInit {
 
   @HostBinding('class') classes = 'row';
-
   games: any = [];
 
   constructor(private gameService: GamesService) { }
-
 
   ngOnInit() {
     this.getGames();
@@ -39,7 +38,7 @@ export class GamesListComponent implements OnInit {
           this.getGames();
         },
         err => console.error(err)
-      )
+      );
   }
 
 }
